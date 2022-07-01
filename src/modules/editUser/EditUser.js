@@ -58,7 +58,7 @@ export default function EditUser() {
       console.log("Document data:", docSnap.data());
       setUsers(docSnap.data())
     } else {
-      // doc.data() will be undefined in this case
+      // doc.data() will be undefined in th
       console.log("No such document!");
     }
   }
